@@ -14,5 +14,5 @@ function searchNum(arr1, arr2) {
 
   console.log(`Number ${searchingNum} occurs ${count} times.`);
 }
-searchNum([5, 2, 3, 3, 1, 6], [5, 2, 3]);
+searchNum([5, 2, 3, 4, 1, 6], [5, 2, 3]);
 searchNum([7, 1, 5, 8, 2, 7], [3, 1, 5]);
