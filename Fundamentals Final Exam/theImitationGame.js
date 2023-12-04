@@ -20,8 +20,7 @@ function theImitationGame(arr) {
 
                 message = message.slice(0, idx) + value + message.slice(idx);
             } else if (command == "ChangeAll") {
-                let substring = tokens[0];
-                let replacement = tokens[1];
+                let [substring, replacement] = tokens;
 
                 message = message.split(substring).join(replacement);
             }
